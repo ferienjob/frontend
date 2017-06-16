@@ -4,7 +4,7 @@ Die Website von Ferienjob projekt.
 
 ## Farben
 
-- button: `#4dd9ff`
+- button: `#4da9ff`
 - hintergrund von card `#b3d9ff`
 - impressum `#0084ff`
 
