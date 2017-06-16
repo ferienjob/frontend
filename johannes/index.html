@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>* Ferien Jobs - Home *</title>
+  </head>
+  <body>
+    <header class='header'>
+      <a class='header__brand' href='/'>Ferien Jobs</a>
+      <nav class='header__nav'>
+        <a href='/suche'>Suche</a>
+        <a href='/login'>Login/Signup</a>
+      </nav>
+    </header>
+
+    <div class='hero'>
+      <h1 class='hero__title'>Ferien Jobs - Home</h1>
+
+      <div class='hero__form'>
+        <form action='/search' method='post'>
+          <div class='row'>
+            <label>
+              <span>Job</span>
+              <input
+                placeholder='z.B. Koch'
+                type='text'
+                name='job'
+                />
+            </label>
+
+            <label>
+              <span>Ort</span>
+              <input
+                placeholder='z.B. Köln'
+                type='text'
+                name='ort'
+                />
+            </label>
+          </div>
+
+          <input type='submit' value='Search'>
+
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>
