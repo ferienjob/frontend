@@ -2,24 +2,37 @@
 body {
     font-family: 'Pangolin', cursive;
 }
+h1{
+text-decoration: underline;
+
+}
 .Logo{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     margin: 40px;
     padding: 20px;
+    border: 1px solid #b3d9ff;
 }
 .Container_oben{
     display: flex;
     flex-align: center;
 }
 .Infos_U {
-    border: 1px solid black;
+    border: 2px solid #b3d9ff;
     margin: 40px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     padding: 20px;
 }
-.Überschrift_2{
+.Infos_U a {
+    display: block;
+    margin: 3px 0 3px 0;
+}
+h2{
     font-size: 25px;
     margin-top: 40px;
+    margin-left: 20px;
+}
+.Text{
+    margin: 40px;
 }
 .Container_mitte{
     border: 3px solid #b3d9ff;
@@ -30,29 +43,33 @@ body {
 .Ansprechpatner{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-.infos_A{
-
+.Infos_A a{
+    display: block;
 }
 
-.Überschrift_3{
+h3{
     font-size: 25px;
     margin-top: 40px;
+    margin-left: 20px;
 }
 .Jetzt_Bewerben{
     background-color: white;
     color: black;
     border: 2px solid #4da9ff;
-    margin-left: 40px;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-align: center;
+    padding: 16px 32px;
 }
-.Jetzt_Bewerben :hover{
+.Jetzt_Bewerben a:hover{
     background-color:#f4da9ff ;
     color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-.Überschrift_4 {
+h4{
     font-size: 25px;
     margin-top: 40px;
-    padding: 30px;
+    margin-left: 20px;
 }
 .fotos img {
     width: 23%;
