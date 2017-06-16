@@ -5,9 +5,11 @@ body {
 }
 h1 {
 	font-size: 60px;
+	font-family: Pangolin,cursive;
 }
 h2 {
 	font-size: 40px;
+	font-family: Pangolin,cursive;
 }
 .content{
 	margin:auto;
@@ -32,12 +34,12 @@ h2 {
 	font-weight: bold;
 }
 .textcontainer{
-	background-color: #f2f2f2;
+	background-color: #b3d9ff;
 	width: 600px;
 	border-radius: 10px;
 	padding-left: 10px;
 	font-size: 20px;
-
+	font-family: Pangolin,cursive;
 	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
 	
 }
@@ -56,25 +58,28 @@ h2 {
 }
 
 .Btext{
-	background-color: #c6c6c6;
+	background-color: #4da9ff;
 	border-radius: 10px;
 	width: 450px;
 	padding: 10px;
 	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
-	
-
-
+	font-family: Pangolin,cursive;
+}
+a{
+	color: black;
 }
 .Auswahl{
-	background-color: #f2f2f2;
+	background-color: #b3d9ff;
 	border-radius: 10px;
 	width: 450px;
 	padding: 10px;
 	margin-top: 20px;
 	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
-	
+	font-family: Pangolin,cursive;
 }
-
+.Auswahl span{
+	font-weight:bold;
+}
 .neben{
 	float: left;
 	padding: 20px;
