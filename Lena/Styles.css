@@ -1,0 +1,60 @@
+
+body {
+    font-family: 'Pangolin', cursive;
+}
+.Logo{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin: 40px;
+    padding: 20px;
+}
+.Container_oben{
+    display: flex;
+    flex-align: center;
+}
+.Infos_U {
+    border: 1px solid black;
+    margin: 40px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding: 20px;
+}
+.Überschrift_2{
+    font-size: 25px;
+    margin-top: 40px;
+}
+.Container_mitte{
+    border: 3px solid #b3d9ff;
+    width: 600px;
+    margin: 40px;
+    padding: 20px;
+}
+.Ansprechpatner{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.infos_A{
+
+}
+
+.Überschrift_3{
+    font-size: 25px;
+    margin-top: 40px;
+}
+.Jetzt_Bewerben{
+    background-color: white;
+    color: black;
+    border: 2px solid #4da9ff;
+    margin-left: 40px;
+}
+.Jetzt_Bewerben :hover{
+    background-color:#f4da9ff ;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.Überschrift_4 {
+    font-size: 25px;
+    margin-top: 40px;
+    padding: 30px;
+}
+.fotos img {
+    width: 23%;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
