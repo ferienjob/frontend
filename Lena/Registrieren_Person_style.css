@@ -1,14 +1,34 @@
 .container {
     margin: 0 auto;
     width: 70%;
+    text-align: center;
 }
-
 body {
     font-family: 'Pangolin', cursive;
 }
 h1{
     text-decoration: underline;
+    text-align: center;
 }
-span{
+.Profil{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #4da9ff;
+}
 
+.B_Registrieren {
+    background-color: white;
+    color: black;
+    border: 2px solid #4da9ff;
+    padding: 12px 28px;
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+    font-size:135%;
+    margin-top:20px;
+    margin-bottom:20px ;
+}
+.B_Registrieren :hover {
+    background-color: #4da9ff;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
