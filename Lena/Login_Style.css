@@ -62,6 +62,7 @@ h1{
 	border-radius: 50%;
 	float: left;
 	margin:60px;
+	display:block;
 
 }
 
@@ -113,3 +114,8 @@ h1{
     width: 55%;
     display: flex;
 } 
+
+.icon a:link {color:black;}
+.icon a:visited {color: black;}
+a.icon:active {color: black;}
+a.icon:hover {color: black;}
