@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
     <script type="text/javascript" src="fancybox/jquery.easing-1.3.pack.js"></script>
 
@@ -25,14 +25,14 @@
                 <p>Code University</p>
 
                 <p>
-                    <span>Email: </span>
-                     <a href="mailto:hello@code.berlin"> hello@code.berlin</a>
-                    <span> Telefonnummer:</span>
-                     <a href="tel:+49 (30) 120 859 61">+49 (30) 120 859 61</a>
-                    <span>Homepage:</span>
-                     <a href="https://code.berlin/de/">code.berlin.de</a>
-                   <span>Adresse: </span>
-                    <a target="_blank" href="http://maps.google.com/?q=addresse CODE Education, GmbH Rheinsberger Str. 76/77, D-10115 Berlin" alt="Öffne in Google Maps">CODE Education, GmbH, Rheinsberger Str. 76/77, D-10115 Berlin</a>
+                    <span>Email: {{company.name}}</span>
+                     <a href="mailto:hello@code.berlin"></a>
+                    <span> Telefonnummer:{{company.telephone_number}}</span>
+                     <a href="tel:+49 (30) 120 859 61"></a>
+                    <span>Homepage:{{company.homepage}}</span>
+                     <a href="https://code.berlin/de/"></a>
+                   <span>Adresse:{{company.address}} </span>
+                    <a target="_blank" href="http://maps.google.com/?q=addresse CODE Education, GmbH Rheinsberger Str. 76/77, D-10115 Berlin" alt="Öffne in Google Maps"></a>
                 </p>
 
 
@@ -42,10 +42,7 @@
 
         <h2>Was sollst du machen und können?</h2>
         <div class="Text">
-              <p>Du bist mindestens 14 Jahre alt, dann kannst du bei uns an der Code University einen Ferienjob machen.
-          In zwei Wochen wirst du jeden Tag von 9:00 Uhr bis 16:00 Uhr bei uns an der University mithelfen.
-          Wenn du dich fürs Programmieren interessierst und auch neues lernen willst bist du hier genau richtig.
-          Du wirst dabei pro Stunde ..Euro verdienen.</p>
+              <p>{{company.description}</p>
         </div>
 
         <h3>Dein Ansprechpatner</h3>
@@ -57,11 +54,11 @@
             </div>
 
             <div class="infos_A">
-                <p><span>Name:</span> Jonathan Rüth</p>
-                <span>Email: </span>
-                <a href="mailto:jonathan@code.berlin">jonathan@code.berlin</a>
-               <p> <span> Telefonnummer:</span>
-                   <a href="tel:+49 (30) 120 859 61">+49 (30) 120 859 61</a></p>
+                <p><span>Name:{{company.contact_first_name}}</span></p>
+                <span>Email:{{company.concact_email}} </span>
+                <a href="mailto:jonathan@code.berlin"></a>
+               <p> <span> Telefonnummer:{{company.contact_telephone_number}}</span>
+                   <a href="tel:+49 (30) 120 859 61"></a></p>
 
             </div>
 
