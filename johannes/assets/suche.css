@@ -121,3 +121,26 @@ body {
 .job__company {
 
 }
+
+/* Mehr-Button */
+#mehr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mehr button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4da9ff;
+    padding: 12px 28px;
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+    font-size:135%;
+    margin-top:20px;
+    margin-bottom:20px ;
+}
+#mehr button:hover {
+    background-color: #4da9ff;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
