@@ -45,12 +45,15 @@ h2{
     margin: 40px;
     padding: 20px;
     display: flex;
+    display: flex;
+    flex-align: center;
 }
 .Ansprechpatner{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    float: left;
 }
 .Infos_A a{
-    float: left;
+    float: right;
 }
 
 h3{
@@ -65,7 +68,6 @@ h3{
     font-size: 16px;
     margin: 4px 2px;
     text-align: center;
-    padding: 16px 32px;
 }
 .Jetzt_Bewerben a:hover{
     background-color: #f4da9ff;
