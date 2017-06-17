@@ -7,61 +7,31 @@
 body {
     font-family: 'Pangolin', cursive;
 }
-h1{
-    text-decoration: ;
 
-}
-
-svg:hover path {
-	fill: red;
-}
 h1{
 	font-size: 60px;
 	font-family: Pangolin, cursive;
 }
 
-.privatlogin{
-	margin: 50px;
-	float: left;
-	background-color: #b3d9ff;
-	padding: 30px;
-	border-radius: 30%;
-}
-
-.firmalogin{
-	margin: 50px;
-	float: left;
-	background-color: #b3d9ff;
-	padding: 30px;
-	border-radius: 30%;
-
-}
-
-.image {
-	border-radius: 50%;
-	overflow: hidden;
-	background-color: red;
-	width: 400px;
-	height: 400px;
-	padding: 20px;
-
+.mitte {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 }
+
+
 
 /*
  HOVER ICON
 */
 .icon {
 	position: relative;
-	width: 400px;
-	height: 400px;
+	width: 15vw;
+	height: 15vw;
 
 	background: lightgrey;
 	border-radius: 50%;
-	float: left;
-	margin:60px;
+	padding: 5vw;
 	display:block;
 
 }
@@ -78,10 +48,12 @@ h1{
 	fill: grey;
 }
 .icon svg {
-	height: 70%;
-	width: 70%;
+	height: 100%;
+	width: 100%;
+	/*
 	padding:50px;
 	padding-left: 60px;
+	*/
 
 	transition: 1s transform;
 }
@@ -119,3 +91,19 @@ h1{
 .icon a:visited {color: black;}
 a.icon:active {color: black;}
 a.icon:hover {color: black;}
+
+
+@media (max-width: 900px) {
+	.mitte {
+		flex-direction: column;
+	}
+	.icon {
+		margin: 5px;
+	}
+
+}
+@media (max-width: 700px) {
+	.icon__oben p {
+		font-size: 20px;
+	}
+}
