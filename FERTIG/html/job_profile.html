@@ -39,10 +39,12 @@
 <h3>Dein Ansprechpatner</h3>
 
 <div class="Container_A_unten">
-    <div class="Infos_A">
-    <img class="ansprechpatner" src="{{company.contact_image_url}}" width="200px">
+    <div class="ansprechpatner__left">
+        <img class="Ansprechpatner" src="{{company.contact_image_url}}" width="200px">
+
+        <button class="button">Jetzt Kontaktieren!</button>
     </div>
-    <div class="Infos_Ansp">
+    <div class="infos_A">
         <p><span> Vorname:</span>{{company.first_name}} </p>
         <p><span> Nachname:</span>{{company.last_name}} </p>
         <p><span> Homepage der Firma:</span>{{company.homepage}}</p>
