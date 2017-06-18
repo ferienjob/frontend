@@ -19,7 +19,7 @@ h2 {
 .container {
 	width: 100%;
 	display: flex;
-	
+
 
 }
 .container div {
@@ -41,7 +41,7 @@ h2 {
 	font-size: 20px;
 	font-family: Pangolin,cursive;
 	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
-	
+
 }
 .Q{
 	width: 50px;
@@ -93,4 +93,16 @@ a{
 
 table ul {
 	padding: 0;
+}
+table ul li {
+	display: inline;
+	background-color: #4da9ff;
+	padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+}
+
+div.Auswahl {
+	margin-bottom: 50px;
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="Registrieren_Firmen_Style.css">
+    <link rel="stylesheet" type="text/css" href="../../lena/add_company.css">
     <meta charset="UTF-8">
     <title>Registrieren als Unternehmen</title>
 </head>
@@ -9,26 +9,77 @@
 <div class="container">
     <h1> Registrieren !!</h1>
 
-    <form  method="get" name="myForm">
+    <form  method="get" name="myForm" action="/create_company">
         <div class="Profil_Daten">
+        <label>
+            <span>Email:</span>
+            <input id="Email" type="email" name="email">
+        </label>
+        <label>
+            <span>Passwort:</span>
+            <input type="password" name="password">
+        </label>
+
+
             <p><span>E_Mail Adresse: </span><input type="email" name="email"><br></p>
             <span><span>Passwort:</span> <input type="password" name="password"><br></p>
             </div>
 
 <h2>Infos zum Unmternehmen</h2>
 <div class="U">
+        <label>
+            <span>Name:</span>
+            <input type="text" name="name">
+        </label>
+         <label>
+            <span>Ihre Hompage:</span>
+            <input  type="text" name="homepage">
+        </label>
+        <label>
+            <span>Adresse:</span>
+            <input  type="text" name="address">
+        </label>
+        <label>
+            <span>Telefonnummer:</span>
+            <input  type="tel" name="telephone_number">
+        </label>
+        <label>
+            <span>Beschreibung:</span>
+            <input  type="text" name="description">
+        </label>
+
+    
         <p><span>Name:</span> <input type="text" name="name"><br></p>
-        <p><span>Homepage:</span> <input type="text" name="homepage"><br></p>
+        <p><span>Ihre Homepage:</span> <input type="text" name="homepage"><br></p>
         <p><span>Adresse:</span> <input type="text" name="address"><br></p>
         <p><span>Telefonnummer:</span> <input type="tel" name="telephone_number"><br></p>
         <p><span>Geburtsdatum:</span> <input type="date" name="g"><br>
         <p><span>Beschreibung:</span> <input type="text" name="description"><br></p>
         <p><span>Fotos:</span> <input type="image" name="image_url"><br></p>
+
 </div>
 
        <h2>Infos zu ihrem Ansprchpatner</h2>
 <div class="A">
-        <p><span>Vorname:</span> <input type="text" name="contact_first_name"><br></p>
+        <label>
+            <span>Vorname:</span>
+            <input  type="text" name="contact_first_name">
+        </label>
+        <label>
+            <span>Nachname:</span>
+            <input  type="text" name="contact_last_name">
+        </label>
+        <label>
+            <span>Email:</span>
+            <input  type="email" name="contact_email">
+        </label>
+        <label>
+            <span>Telefonnummer:</span>
+            <input  type="tel" name="contact_telephone_number">
+        </label>
+        <p>
+            <span>Vorname:</span>
+            <input type="text" name="contact_first_name"><br></p>
         <p><span>Nachname:</span> <input type="text" name="contact_last_name"><br></p>
         <p><span>E-Mail Adresse:</span> <input type="email" name="contact_email"><br></p>
         <p><span>Telefonnummer:</span> <input type="tel" name="contact_telephone_number"><br></p>
