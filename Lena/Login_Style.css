@@ -85,6 +85,13 @@ h1{
 a.icon:active {color: black;}
 a.icon:hover {color: black;}
 
+div.login {
+  background-color: #b3d9ff;
+  padding: 10px;
+  margin: 0px 20px 0px 20px;
+  border-radius: 15px;
+}
+
 
 @media (max-width: 900px) {
 	.mitte {
