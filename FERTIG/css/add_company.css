@@ -1,0 +1,61 @@
+.container {
+    margin: 0 auto;
+    width: 25%;
+    height: 50%;
+}
+body {
+    font-family: 'Pangolin', cursive;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+}
+h2 {
+    margin-top: 50px;
+}
+.Profil_Daten{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #4da9ff;
+    padding:15px;
+}
+.Unter_Daten{
+    paddinge:15px;
+}
+}
+span{
+    font-weight:bold;
+}
+Button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4da9ff;
+    font-size: 16px;
+    margin: 4px 2px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s background;
+    margin: 0 auto;
+    /*
+    margin-right:100px;
+    margin-left:100px;
+    margin-top: 30px;
+    */
+    padding: 5px 15px;
+}
+Button:hover {  background-color: #4da9ff;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+input[type=text,email,password,date,tel] {
+    float: right;
+           }
+.container input{
+    float: right;
+    margin-right:35%;
+}
+.button_regis{
+    display: flex;
+
+}
