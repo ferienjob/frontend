@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="Unternehmen%20und%20Job%20Style..css">
-    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/company_and_job.css">
     <meta charset="UTF-8">
     <title>Jobprofil </title>
 </head>
@@ -13,21 +12,22 @@
 <div class="Container_oben">
 
     <div class="Infos_U">
-        <p><span>Tätigkeit: {{job.title}}</span></p>
-        <p><span>Firma: {{job.company}}</span></p>
-        <p><span>Von:{{job.start_date}}</span></p>
-        <p><span>Bis:{{job.end_date}}</span></p>
-     <a target="_blank" href="http://maps.google.com/?q=addresse CODE Education, GmbH Rheinsberger Str. 76/77, D-10115 Berlin"><span>Adresse:{{job._address}} </span></a>
+        <p><span>Tätigkeit:</span> {{job.title}}</p>
+        <p><span>Firma:</span> {{job.company}}</p>
+        <p><span>Von:</span>{{job.start_date}}</p>
+        <p><span>Bis:</span>{{job.end_date}}</p>
+        <p><span>Adresse:</span>{{job._address}}</p>
+     <a target="_blank" href="http://maps.google.com/?q=addresse CODE Education, GmbH Rheinsberger Str. 76/77, D-10115 Berlin"></a>
     </div>
 </div>
 
 <h2>Beschreibung zum Job</h2>
 <div class="Text">
-    <p><span> Verdienst pro Stunde:{{job.income_per_hour}}</span> </p>
-    <p><span> Startzeit:{{job.start_time}}</span> </p>
-    <p><span> Endzeit:{{job.end_time}} </span> </p>
-    <p><span> Mindestalter: {{job.min_age}}</span> </p>
-    <p><span> Anforderungen:{{job.requirements}}</span> </p>
+    <p><span> Mindestalter: </span>{{job.min_age}} </p>
+    <p><span> Startzeit:</span>{{job.start_time}}</p>
+    <p><span> Endzeit:</span>{{job.end_time}} </p>
+    <p><span> Verdienst pro Stunde:</span>{{job.income_per_hour}} </p>
+    <p><span> Anforderungen:</span>{{job.requirements}} </p>
 </div>
 
 
@@ -38,16 +38,19 @@
 
 <h3>Dein Ansprechpatner</h3>
 
-<div class="Container_mitte">
+<div class="Container_A_unten">
     <div class="Infos_A">
-    <img class="Ansprechpatner" src="{{company.contact_image_url}}" width="200px">
+    <img class="ansprechpatner" src="{{company.contact_image_url}}" width="200px">
     </div>
     <div class="Infos_Ansp">
-        <p><span> Vorname:{{company.first_name}} </span></p>
-        <p><span> Nachname:{{company.last_name}} </span></p>
-        <p> <a href="https://code.berlin/de/"> <span> Homepage der Firma:{{company.homepage}}</span> </a></p>
-        <p><a href="tel:+49 (30) 120 859 61"><span> Telefonnummer:{{company.contact_telephone_number}}</span> </a></p>
-        <p><a href="mailto:hello@code.berlin"><span> E-Mail:{{company.contact_email}}</span> </a><br></p>
+        <p><span> Vorname:</span>{{company.first_name}} </p>
+        <p><span> Nachname:</span>{{company.last_name}} </p>
+        <p><span> Homepage der Firma:</span>{{company.homepage}}</p>
+            <a href="https://code.berlin/de/">  </a>
+        <p><span> Telefonnummer:</span>{{company.contact_telephone_number}}</p>
+            <a href="tel:+49 (30) 120 859 61"></a>
+        <p><span> E-Mail:</span>{{company.contact_email}}</p>
+            <a href="mailto:hello@code.berlin"> </a><br>
      </div>
 </div>
 </body>
