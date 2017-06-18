@@ -29,6 +29,12 @@ text-decoration: underline;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     padding: 20px;
 }
+/*.Infos_U {
+    border: 2px solid #b3d9ff;
+    margin: 40px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding: 20px;
+}*/
 .Infos_U a {
     display: block;
     margin: 3px 0 3px 0;
@@ -50,10 +56,18 @@ h2{
     /* margin: 40px; */
     padding: 20px;
     display: flex;
+<<<<<<< Updated upstream
    /* display: flex;
     flex-align: center;*/
     border-radius: 5px;
 
+=======
+    display: flex;
+    flex-align: center;
+    border-radius: 5px;
+}
+.Ansprechpatner{
+>>>>>>> Stashed changes
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .ansprechpartner__left {
@@ -91,10 +105,18 @@ h3{
     letter-spacing: 2px;
     text-transform: uppercase;
     transition: 0.5s background;
+<<<<<<< Updated upstream
 }
 
 .button:hover{
     background-color: #4da9ff;
+=======
+
+
+}
+.Jetzt_Bewerben:hover{
+    background-color: #f4da9ff;
+>>>>>>> Stashed changes
     color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -113,8 +135,16 @@ span a {
     display: block;
 }
 span{
+<<<<<<< Updated upstream
     font-weight: bold;
     margin-top: 20px;
+=======
+    font-weight: bold
+    margin-top:20px;
+}
+span a {
+    display:block;
+>>>>>>> Stashed changes
 }
 a{
     color: black;
