@@ -1,4 +1,7 @@
 
+* {
+    box-sizing: border-box;
+}
 .container {
     margin: 0 auto;
     width: 70%;
@@ -12,16 +15,15 @@ text-decoration: underline;
 
 }
 .Logo{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     margin: 40px;
     padding: 20px;
     border: 1px solid #b3d9ff;
+    height: 180px;
+    width: 200px;
 }
 .Container_oben{
     display: flex;
     flex-align: center;
-}
-.Infos_U {
     border: 2px solid #b3d9ff;
     margin: 40px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -39,21 +41,36 @@ h2{
 .Text{
     margin: 40px;
 }
-.Container_mitte{
-    border: 3px solid #b3d9ff;
-    width: 600px;
-    margin: 40px;
+
+
+
+.Container_A_unten{
+    border: 1px solid rgba(0, 0, 0, 0.1); /* #b3d9ff */
+    width: 100%;
+    margin-bottom: 20px;
     padding: 20px;
     display: flex;
     display: flex;
     flex-align: center;
+    border-radius: 5px;
 }
-.Ansprechpatner{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    float: left;
+
+.ansprechpartner__left {
+    width: 30%;
 }
-.Infos_A a{
+.ansprechpartner__left img {
+    width: 100%;
+
+}
+.ansprechpartner__left button {
+    width: 100%;
+}
+
+
+.infos_A {
     float: right;
+    padding: 20px;
+    margin: 20px;
 }
 
 h3{
@@ -61,37 +78,45 @@ h3{
     margin-top: 40px;
     margin-left: 20px;
 }
-.Jetzt_Bewerben{
+
+.button {
     background-color: white;
     color: black;
     border: 2px solid #4da9ff;
     font-size: 16px;
     margin: 4px 2px;
-    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s background;
+    padding: 5px 15px;
+
 }
-.Jetzt_Bewerben a:hover{
-    background-color: #f4da9ff;
+
+.button:hover{
+    background-color: #4da9ff;
     color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
 h4{
     font-size: 25px;
     margin-top: 40px;
     margin-left: 20px;
 }
 .fotos img {
-    width: 23%;
+    width: 22%;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     margin: 10px;
     
 }
-span{
-    font-weight: bold
+span a {
+    display: block;
+}
+
+
+span {
+    font-weight: bold;
+    margin-top: 20px;
 }
 a{
     color: black;
-}
-.Infos_Ansp {
-    float: right;
-    padding: 20px;
-}

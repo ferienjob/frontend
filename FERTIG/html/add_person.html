@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="Registrieren_Person_style.css">
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/add_company.css">
     <title>Registrieren</title>
 </head>
 <body>
@@ -10,20 +11,55 @@
     <h1> Registrieren !!</h1>
 
     <form  method="get" name="myForm">
-<div class="Profil">
-    <p>E_Mail Adresse: <input type="email" name="email"><br></p>
-    <p>Passwort: <input type="password" name="password"><br></p>
-</div>
+    <div class="Profil_Daten">
+        <label>
+            <span>Email:</span>
+            <input " type="email" name="email">
+        </label>
 
-        <p><span>Vorname:</span> <input type="text" name="first_name"><br></p>
-        <p><span>Nachname:</span> <input type="text" name="last_name"><br></p>
-        <p><span>Adresse:</span> <input type="text" name="address"><br></p>
-        <p><span>Telefonnummer:</span> <input type="tel" name="telephone_number"><br></p>
-        <p><span>Geburtsdatum:</span> <input type="date" name="date-of_birth"><br></p>
-        <p><span>Qualifikationen:</span> <input type="text" name="qualifications"><br></p>
-        <p><span>Wunschtätigkeiten:</span> <input type="text" name="wish_sector"><br></p>
+         <label>
+            <span>Passwort:</span>
+            <input type="password" name="password">
+        </label>
+   
+    </div>
+    <div class="Unter_Daten">
+         <label>
+            <span>Vorname:</span>
+            <input  type="text" name="contact_first_name">
+        </label>
+        <label>
+            <span>Nachname:</span>
+            <input  type="text" name="contact_last_name">
+        </label>
+         <label>
+            <span>Adresse:</span>
+            <input  type="text" name="address">
+        </label>
+        
+        <label>
+            <span>Email:</span>
+            <input  type="email" name="contact_email">
+        </label>
+         <label>
+            <span>Geburtsdatum:</span>
+            <input  type="date" name="date-of_birth">
+        </label>
+        <label>
+            <span>Telefonnummer:</span>
+            <input  type="tel" name="contact_telephone_number">
+        </label>
+        <label>
+            <span>Qualifikationen:</span>
+            <input  type="text" name="qualifications">
+        </label>
+        <label>
+            <span>Wunschtätigkeit:</span>
+            <input  type="text" name="wish_sector">
+        </label>
 
         <button class="B_Registrieren"> Jetzt Registrieren</button>
+    </div>
     </form>
 
 </div>

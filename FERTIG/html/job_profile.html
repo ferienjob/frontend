@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/company_and_job.css">
+    <meta charset="UTF-8">
+    <title>Jobprofil </title>
+</head>
+<body>
+<div class="container" >
+<h1>Job</h1>
+
+<div class="Container_oben">
+
+    <div class="Infos_U">
+        <p><span>Tätigkeit:</span> {{job.title}}</p>
+        <p><span>Firma:</span> {{job.company}}</p>
+        <p><span>Von:</span>{{job.start_date}}</p>
+        <p><span>Bis:</span>{{job.end_date}}</p>
+        <p><span>Adresse:</span>{{job._address}}</p>
+     <a target="_blank" href="http://maps.google.com/?q=addresse CODE Education, GmbH Rheinsberger Str. 76/77, D-10115 Berlin"></a>
+    </div>
+</div>
+
+<h2>Beschreibung zum Job</h2>
+<div class="Text">
+    <p><span> Mindestalter: </span>{{job.min_age}} </p>
+    <p><span> Startzeit:</span>{{job.start_time}}</p>
+    <p><span> Endzeit:</span>{{job.end_time}} </p>
+    <p><span> Verdienst pro Stunde:</span>{{job.income_per_hour}} </p>
+    <p><span> Anforderungen:</span>{{job.requirements}} </p>
+</div>
+
+
+    <div class="Text">
+    <p> {{job.description}}</p>
+
+</div>
+
+<h3>Dein Ansprechpatner</h3>
+
+<div class="Container_A_unten">
+    <div class="ansprechpatner__left">
+        <img class="Ansprechpatner" src="{{company.contact_image_url}}" width="200px">
+
+        <button class="button">Jetzt Kontaktieren!</button>
+    </div>
+    <div class="infos_A">
+        <p><span> Vorname:</span>{{company.first_name}} </p>
+        <p><span> Nachname:</span>{{company.last_name}} </p>
+        <p><span> Homepage der Firma:</span>{{company.homepage}}</p>
+            <a href="https://code.berlin/de/">  </a>
+        <p><span> Telefonnummer:</span>{{company.contact_telephone_number}}</p>
+            <a href="tel:+49 (30) 120 859 61"></a>
+        <p><span> E-Mail:</span>{{company.contact_email}}</p>
+            <a href="mailto:hello@code.berlin"> </a><br>
+     </div>
+</div>
+</body>
+</html>
