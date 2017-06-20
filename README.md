@@ -2,6 +2,14 @@
 
 Die Website von Ferienjob projekt.
 
+![Landing Page - Hero](./.github/landing_page_hero.png)
+
+![Landing Page - Content](./.github/landing_page_content.png)
+
+![Search Page](./.github/search_page.png)
+
+![Job Page](./.github/job_page.png)
+
 ## Farben
 
 - button: `#4da9ff`
